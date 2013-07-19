@@ -74,11 +74,11 @@
  		// Send mail
  		if (mail($_POST['mail'], $subject, "", $message, "-fweb@proarquita.com")){
  			// Done, redirect home
-	 		header('Location: http://www.proarquita.com/proarquita/', true, 301);
+	 		header('Location: http://www.proarquita.com/', true, 301);
 			exit;
  		} else {
  			// Error, redirect somewhere!
- 			header('Location: http://www.proarquita.com/proarquita/contacto.html', 
+ 			header('Location: http://www.proarquita.com/contacto.html', 
 	 			true, 301);
 			exit;
  		}
