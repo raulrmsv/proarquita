@@ -1,0 +1,748 @@
+﻿
+/* BARRA DE NAVEGACION */
+
+.navbar{
+	margin: 0;
+}
+
+.navbar .brand {
+	margin:0;
+	padding: 0 1%;
+}
+
+.brand img{
+	height: 100px;
+}
+
+.navbar-inner{
+	background: #fff;
+	box-shadow: none !important;
+	border: none;
+	padding: 0;
+}
+
+.navbar .nav>li>a{
+	padding: 40px 13px;
+	color: #951f57;
+	text-shadow: none !important;
+}
+
+.navbar .nav>.active>a, .navbar .nav>li>a:hover{
+	background: #e5e5e5 !important;	
+	color: #555 !important;
+}
+
+/* Botones de facebook y twitter */
+
+.navbar .nav>.twitter>a, .navbar .nav>.facebook>a{
+	padding: 32px 6px !important;
+}
+
+.navbar .nav>.twitter>a:hover, .navbar .nav>.facebook>a:hover{
+	background: rgba(0,0,0,0.1) !important;
+}
+
+/* Boton desplegable de idiomas*/
+
+.navbar .dropdown-menu {
+	border-radius: 0;
+	min-width: 25px !important
+}
+
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus, .dropdown-submenu:hover > a, .dropdown-submenu:focus > a {
+	background: #00c300;
+}
+.dropdown-menu > .active > a, .dropdown-menu > .active > a:hover, .dropdown-menu > .active > a:focus {
+    background: #00c300;
+}
+
+/* BANNER INICIO */
+
+#myCarousel img{
+	height: 600px;
+	width: 100%;
+}
+
+#myCarousel .carousel-caption {
+    top: 0;
+    left: 10%;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 12%;
+    position: absolute;
+	width: 30%;
+	height: 100%;
+	bottom: auto !important;
+}
+
+#myCarousel .lead{
+	font-size: 20px !important;
+	font-family: "Lato";
+}
+
+#myCarousel .carousel-caption h1 {
+	font-size: 35px !important;
+	font-family: "Lato";
+	color: #fff;
+	font-weight: 400;
+}
+
+#myCarousel .carousel-caption .btn{
+	border: none;
+	border-radius: 0;
+	background: #990753;
+	text-shadow: none;
+	margin-top: 20px;
+	box-shadow: none;
+}
+
+#myCarousel .carousel-control{
+	border: none;
+	border-radius: 0;
+	font-size: 40px;
+	top: 45% !important;
+
+}
+
+/* RESUMEN SERVICIOS PAGINA DE INICIO*/
+
+#servicios{
+	width: 91%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 50px;
+	margin-top: 100px;
+	
+}
+#servicios h1{
+	color: #990753;
+	font-family: "Lato";
+	font-size: 45px;
+	font-weight: 300;
+	text-align: center;
+	margin-bottom: 30px;
+}
+#servicios .span4{
+	background: rgba(0,0,0,0.8);
+	color: #fff;
+	height: auto;
+}
+#servicios img{
+	width: 100%;
+	height: auto;
+}
+#servicios .span4 h2{
+	background: #990753;
+	font-size: 25px !important;
+	font-family: "Lato";
+	font-weight: 300;
+	text-align: center;
+	margin: 0;
+	padding: 8px 0;
+}
+
+#servicios .span4 p{
+	width: 90%;
+	height: auto;
+	margin: 10px auto;
+	font-family: "Lato";
+	font-size: 16px;
+	font-weight: 300;
+	
+}
+
+#servicios .btn{
+	border: none;
+	border-radius: 0;
+	background: #990753;
+	text-shadow: none;
+	box-shadow: none;
+	color:#fff;
+}
+
+/* SECCION EQUIPO*/
+
+#elemento1, #elemento2, #elemento3, #elemento4, #elemento5, #elemento6{
+	height: 300px;
+	margin:0;
+}
+
+#elemento1, #elemento4{
+	width: 50%;
+}
+
+#elemento5, #elemento2{
+	width: 50%;
+	margin:0;
+}
+
+#elemento3, #elemento6{
+	width: 50%;
+}
+
+#elemento1 img{
+	width: 100%;
+}
+
+
+#elemento2{
+	background-color: #990753;
+}
+
+#elemento5{
+	background-color: #880146;
+}
+
+#elemento3{
+	background: #eee;
+}
+
+#elemento6{
+	background: #ddd;
+}
+
+#elemento1 h3{
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: Lato;
+	font-weight: 300;
+	color: #fff;
+	margin-top: 0;
+	padding-top: 15%;
+}
+
+#elemento4 h3{
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: Lato;
+	font-weight: 300;
+	color: #fff;
+	margin-top: 0;
+	padding-top: 15%;
+	line-height: 24px;
+}
+
+#elemento1 p, #elemento4 p{
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: Lato;
+	color: #fff;
+	font-weight: 300;
+	font-size: 16px;
+}
+
+#elemento3 h3, #elemento6 h3{
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: Lato;
+	font-weight: 400;
+	color: #990753;
+	margin-top: 4%;
+}
+
+#elemento3 p, #elemento6 p{
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: Lato;
+}
+
+
+
+
+/* SECCION SERVICIOS*/
+
+#servicios2{
+	background-color: #eee;
+	width: 100%;
+	padding-top: 30px;	
+	margin-left: 0;
+	height: auto;
+	text-align: center;
+}
+
+#servicios2 .row{
+	width: 100%;
+	margin:0;
+}
+#gestion{
+	background-image: -moz-linear-gradient(90deg,#990753 49.5%, #880146 49.5%,#880146); /* degradado barra del menu en grises */
+	background-image: -webkit-linear-gradient(0deg,#990753 49.5%, #880146 49.5%,#880146); 
+	background-image: -o-linear-gradient(90deg,#990753 49.5%, #880146 49.5%,#880146);
+	background-image: linear-gradient(90deg,#990753 49.5%, #880146 49.5%,#880146);
+}
+#gestion .span4{
+	width: 50%;
+	padding: 0px 0;	
+	margin-left: 0px;
+	height: auto;
+	text-align: center;
+}
+
+#servicios2 #proyectos{
+	text-align: left;
+}
+
+#servicios2 #proyectos ul{
+	width: 50%;
+}
+
+#servicios2 #proyectos h1{
+	color: #ddd;
+	font-family: "Lato";
+	font-size: 40px;
+	font-weight: 300;
+	margin-left: 15%;
+	margin-top: 5%;
+}
+
+#servicios2 #proyectos h4{
+	color: #ddd;
+	font-family: "Lato";
+	font-size: 20px;
+	font-weight: 300;
+	margin-left: 16%;
+}
+
+
+#servicios2 #gestion ul{
+	color: #ddd;
+	list-style: square;
+	margin-left: 20%;
+}
+
+#servicios2 h1{
+	color: #990753;
+	font-family: "Lato";
+	font-size: 50px;
+	font-weight: 300;
+}
+
+#servicios2 h3{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+	color: #777;
+	width: 80%;
+	font-family: "Lato";
+	font-size: 30px;
+	font-weight: 300;
+}
+
+
+#servicios2 .span4 h2{
+	background: #990753;
+	font-size: 25px !important;
+	font-family: "Lato";
+	font-weight: 300;
+	text-align: center;
+	margin: 0;
+	padding: 8px 0;
+	color:#fff;
+}
+
+#servicios2 .span4 p{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+	width: 80%;
+	font-size: 16px;
+	color: #fff;
+}
+
+#lista_servicios .span4{
+	width: 33.1%;
+	padding: 0px 0;	
+	margin-left: 2px;
+	margin-bottom: 2px;
+	height: auto;
+	background: #ddd;
+	height: 100%;
+	
+}
+
+
+#lista_servicios ul{
+	color: #990753;
+	list-style: square;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+	width: 60%;
+	padding: 5% 0;
+	font-size: 18px;
+	font-family: "Lato";
+	font-weight: 400;
+}
+
+#servicios3{
+	margin: 1.5% 0;
+	text-align: center;
+}
+
+#servicios3 a{
+	color: #777;
+	font-size: 18px;
+}
+
+#servicios3 a:hover{
+	text-decoration: none;
+	color: #394049;
+}
+
+
+
+/* SECCION EMPRESA */
+
+#empresa{
+	background-color: #eee;
+	background-repeat: no-repeat;
+	background-position: 100% 100%;
+	width: 100%;
+	text-align: center;
+	padding: 0;
+	
+}
+
+#empresa h1{
+	color: #990753;
+	font-family: "Lato";
+	font-size: 40px;
+	font-weight: 300;
+}
+
+#empresa .row{
+	width: 100% !important;
+	margin: 0 !important;
+	padding: 0;
+}
+#empresa .span4{
+	width: 50%;
+	margin: 0 !important;
+	padding: 0;
+}
+
+#empresa .span4 img{
+	width: 100%;
+	margin: 0 !important;
+	padding: 0;
+}
+
+#empresa span{
+	color: #990753;
+	font-family: "Vollkorn";
+	font-size: 18px;
+	font-weight: 400;
+}
+	
+
+#empresa p{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+	width: 80%;
+	font-size: 14px;
+	font-family: "Lato";
+	font-weight: 400;
+}
+#enlaces {
+	margin-left:0;
+	width: 100%;
+}
+
+#enlaces h3{
+	margin:23px 0 0 20px;
+	font-size: 16px;
+	color: #888;
+	font-family: "Lato";
+	font-weight: 400;
+	width: 10%;
+}
+#enlaces .span2{
+	text-align:left;
+	width: 200px;
+}
+
+#enlaces img{
+	height: auto;
+	width: 85%;
+}
+
+/* TRABAJOS */
+
+#intro .nav-pills>li>a{
+	margin:0;
+	color: #990753;
+}
+
+#intro .nav-pills>li>a:hover{
+	height: 100%;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+	background-color: #990753;
+	color: #fff;
+	border: none;
+	
+}
+#trabajos h2{
+	background-color: #990753; 
+	color: #fff;
+	font-family: "Lato";
+	font-weight: 400;
+	font-size: 30px;
+	margin:0;
+	padding: 1%;
+}
+	
+#trabajos .row{
+	margin:0 0 2% 0;
+	background-image: -moz-linear-gradient(90deg,#ccc 19%, #ddd 19%,#ddd); /* degradado barra del menu en grises */
+	background-image: -webkit-linear-gradient(0deg,#ccc 19%, #ddd 19%,#ddd);
+	background-image: -o-linear-gradient(90deg,#ccc 19%, #ddd 19%,#ddd);
+	background-image: linear-gradient(90deg,#ccc 19%, #ddd 19%,#ddd);
+	
+}
+
+#trabajos #descripcion{
+	width: 20%;
+	margin: 0;
+}
+
+#trabajos #descripcion h3{
+	font-family: "Lato";
+	font-weight: 400;
+	line-height: 24px;
+	width: 90%;
+	margin: 25px auto 15px auto;	
+	color: #990753;
+	font-size: 20px;
+}
+
+#trabajos #descripcion h4{
+	font-family: "Lato";
+	font-weight: 400;
+	line-height: 18px;
+	width: 90%;
+	margin: 10px auto;	
+	color: #777;
+}
+
+#trabajos #descripcion p{
+	font-family: "Lato";
+	font-weight: 400;
+	width: 90%;
+	margin: 10px auto;	
+}
+
+#trabajos #imagenes{
+	width: 80%;
+	margin: 0;
+	padding: 1% 0;
+}
+
+#trabajos #imagenes p{
+	margin: 0;
+}
+
+/* CONTACTO */
+		
+#contacto{
+	width: 100%;
+	background-color: #990753;
+}
+
+#contacto .row{
+	width: 100%;
+	margin:0;
+	background-color: #eee;
+	text-align: center;
+}
+
+#contacto h1{
+	color: #990753;
+	font-family: "Lato";
+	font-size: 50px;
+	font-weight: 300;
+}
+
+#contacto p{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+	width: 80%;
+	font-size: 16px;
+}
+
+#contacto_intro{
+	margin: 0;
+	width: 80%;
+}
+
+#contacto_intro h1{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+	width: 80%;
+}
+
+#jobs{
+	margin: 0;
+	width: 20%;
+	background-color: rgba(0,0,0,0.05);
+	font-family: "Lato";
+	font-weight: 400;	
+	text-align: left;
+}
+
+#jobs h3{
+	font-size: 18px;
+	font-family: "Lato";
+	font-weight: 400;
+	line-height: 18px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+	width: 80%;
+}
+
+#jobs p{
+	margin-top: 20px;
+}
+
+#info {
+	text-align: center;
+}
+#datos{
+	width: 50%;
+	padding: 20px 50px;
+	height: 420px;
+}
+#datos h2{
+	color: #fff;
+	font-size: 30px;
+	font-family: "Lato";
+	font-weight: 300;
+	margin-bottom: 20px;
+}
+#datos p{
+	font-weight: 400;
+	color: #fff !important;
+	font-size: 16px;
+	width: 94%;	
+	margin: 10px auto;
+	height: auto;
+	padding: 15px 10px;
+	background-color: rgba(0,0,0,0.2);
+	text-align: center;
+}
+
+#datos ul{
+	margin:30px 0;
+}
+
+#datos li{
+	list-style: none;
+	display: inline;
+}
+		
+#formulario{
+	width: 50%;
+	background-color: rgba(0,0,0,0.2);
+	padding: 20px 0px;
+	height: 420px;
+	margin-left: 0;
+}
+
+#formulario form{
+	width: 90%;
+	font-family: "Lato";
+	margin: 0 auto;
+}
+#formulario input{
+	border-radius: 0;
+	border: none;
+	width: 90%;
+	margin: 0 auto 20px auto;
+}
+
+#formulario textarea{
+	border-radius: 0;
+	border: none;
+	width: 90%;
+	margin: 0 auto 20px auto;
+		
+}
+
+#formulario h2{
+	font-family: "Lato";
+	font-weight: 300;
+	color: #fff;
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+#formulario .btn-primary {
+	font-family: "Lato";
+	font-weight: 300;
+	font-size: 18px;
+	background-color: #990753 !important;
+	background-image: none !important;
+	border-radius: 0 !important;
+	border: none;
+	text-shadow: none;
+	box-shadow: none !important;
+	width: 92%;
+	margin: 0 auto;
+} 
+
+#firstHeading{
+	font-family: "Lato";
+	font-weight: 400 !important;
+	font-size: 20px !important;
+	color: #990753;
+	width: 80%; 
+	margin: 0 auto;
+}
+
+#firstHeading span{
+	font-family: "Lato";
+	font-weight: 300;
+	font-size: 20px !important;
+	color: #990753;
+}
+
+/* PIE DE PAGINA */
+
+footer{
+	height: auto;
+	background: #990753;
+	color: #fff;
+	font-family: "Lato";
+	font-weight: 300;
+	text-align: center;
+	font-size: 16px;
+	padding: 20px 0;
+	border-top: 2px solid #fff;
+}
+
+footer ul{
+margin: 0;
+}
+
+footer li{
+	list-style: none;
+	display: inline;
+}
+
+
+
+
+
+
+
+
